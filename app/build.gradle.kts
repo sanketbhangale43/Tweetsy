@@ -58,7 +58,23 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    // Dagger hilt
+    // Hilt
     implementation(libs.dagger.hilt)
     ksp(libs.dagger.hilt.compiler)
+
+    // Viewmodel
+    implementation(libs.viewmodel)
+    implementation(libs.viewmodel.compose)
+
+    // Coroutines
+    implementation(libs.coroutiners.core)
+    implementation(libs.coroutines)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.hilt.navigation.compose)
 }
