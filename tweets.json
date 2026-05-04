@@ -1,0 +1,116 @@
+{
+  "tweets": [
+    {
+      "category": "Android",
+      "text": "Use ViewModel to survive configuration changes in Android apps."
+    },
+    {
+      "category": "Android",
+      "text": "Jetpack Compose makes UI development faster and more intuitive."
+    },
+    {
+      "category": "System Design",
+      "text": "Load balancers distribute traffic across multiple servers to improve reliability."
+    },
+    {
+      "category": "System Design",
+      "text": "Caching reduces database load and improves response time significantly."
+    },
+    {
+      "category": "Data Structures and Algorithms",
+      "text": "Binary search works only on sorted arrays and reduces time complexity to O(log n)."
+    },
+    {
+      "category": "Data Structures and Algorithms",
+      "text": "HashMaps provide average O(1) lookup time using hashing."
+    },
+    {
+      "category": "Machine Learning",
+      "text": "Overfitting happens when a model learns noise instead of the actual pattern."
+    },
+    {
+      "category": "Machine Learning",
+      "text": "Gradient descent is used to minimize the loss function during training."
+    },
+    {
+      "category": "Web Development",
+      "text": "React uses a virtual DOM to efficiently update the UI."
+    },
+    {
+      "category": "Web Development",
+      "text": "REST APIs use HTTP methods like GET, POST, PUT, DELETE."
+    },
+    {
+      "category": "DevOps",
+      "text": "CI/CD pipelines automate testing and deployment processes."
+    },
+    {
+      "category": "DevOps",
+      "text": "Docker helps in containerizing applications for consistent environments."
+    },
+    {
+      "category": "Databases",
+      "text": "Indexes improve read performance but can slow down writes."
+    },
+    {
+      "category": "Databases",
+      "text": "Normalization reduces data redundancy in relational databases."
+    },
+    {
+      "category": "Operating Systems",
+      "text": "Processes are isolated execution units managed by the OS."
+    },
+    {
+      "category": "Operating Systems",
+      "text": "Context switching allows CPU to switch between multiple processes."
+    },
+    {
+      "category": "Cloud Computing",
+      "text": "Cloud services provide on-demand computing resources over the internet."
+    },
+    {
+      "category": "Cloud Computing",
+      "text": "AWS Lambda allows serverless execution of backend code."
+    },
+    {
+      "category": "Cybersecurity",
+      "text": "Encryption protects data by converting it into unreadable format."
+    },
+    {
+      "category": "Cybersecurity",
+      "text": "Two-factor authentication adds an extra layer of security."
+    },
+    {
+      "category": "Artificial Intelligence",
+      "text": "AI systems can learn patterns from large datasets to make predictions."
+    },
+    {
+      "category": "Artificial Intelligence",
+      "text": "Natural Language Processing helps machines understand human language."
+    },
+    {
+      "category": "Programming",
+      "text": "Clean code is easier to maintain and debug over time."
+    },
+    {
+      "category": "Programming",
+      "text": "Refactoring improves code structure without changing functionality."
+    },
+    {
+      "category": "Version Control",
+      "text": "Git allows tracking changes in code and collaboration among developers."
+    },
+    {
+      "category": "Version Control",
+      "text": "Branching helps developers work on features independently."
+    },
+    {
+      "category": "Product Management",
+      "text": "A good product solves a real user problem effectively."
+    },
+    {
+      "category": "Product Management",
+      "text": "User feedback is essential for iterative product improvement."
+    }
+  ]
+}
