@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
     alias(libs.plugins.dagger.hilt)
@@ -7,16 +8,12 @@ plugins {
 
 android {
     namespace = "com.sanket.apps.tweetsy"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.sanket.apps.tweetsy"
         minSdk = 25
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -35,6 +32,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    kotlin {
+        jvmToolchain(11)
     }
     buildFeatures {
         compose = true
@@ -63,12 +63,12 @@ dependencies {
     ksp(libs.dagger.hilt.compiler)
 
     // Viewmodel
-    implementation(libs.viewmodel)
-    implementation(libs.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     // Coroutines
-    implementation(libs.coroutiners.core)
-    implementation(libs.coroutines)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
 
     // Retrofit
     implementation(libs.retrofit)
